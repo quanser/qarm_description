@@ -6,7 +6,7 @@ Refer to the LICENSE file for details.
 -->
 
 # QArm Description
-This package contains the Universal Robotic Description Format (URDF) file, together with accompanying files (e.g., STL meshes) for the Quanser [QArm]().
+This package contains the Universal Robotic Description Format (URDF) file, together with accompanying files (e.g., STL meshes) for the Quanser [QArm](https://www.quanser.com/products/qarm/).
 
 <!-- MarkdownTOC -->
 
