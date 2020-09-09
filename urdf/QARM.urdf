@@ -2,6 +2,12 @@
 <!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
      Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<!--
+    ###################################################################################################################
+    Note that all mass/inertial values are examples values only. They are not representative of the actual components.
+    ###################################################################################################################
+-->
+
 <robot name="QARM">
   <link name="world"/>
 	<joint name="world_base_joint" type="fixed">
@@ -101,8 +107,8 @@
     <axis
       xyz="0 0 1" />
     <limit
-      lower="0"
-      upper="0"
+      lower="-2.967"
+      upper="2.967"
       effort="0"
       velocity="0" />
   </joint>
@@ -159,8 +165,8 @@
     <axis
       xyz="0 0 1" />
     <limit
-      lower="0"
-      upper="0"
+      lower="-1.483"
+      upper="1.483"
       effort="0"
       velocity="0" />
   </joint>
@@ -215,10 +221,10 @@
     <child
       link="FOREARM" />
     <axis
-      xyz="0 0 -1" />
+      xyz="0 0 1" />
     <limit
-      lower="0"
-      upper="0"
+      lower="-1.658"
+      upper="1.309"
       effort="0"
       velocity="0" />
   </joint>
@@ -275,8 +281,8 @@
     <axis
       xyz="0 0 1" />
     <limit
-      lower="0"
-      upper="0"
+      lower="-3.010"
+      upper="3.010"
       effort="0"
       velocity="0" />
   </joint>
